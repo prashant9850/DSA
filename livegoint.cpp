@@ -9,6 +9,7 @@ int main() {
         if (s[i] == 'a') {
             s[i]='A';
         }
+        
         cout << s[i] << endl;
     }
 
