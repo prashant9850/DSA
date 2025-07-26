@@ -1,8 +1,11 @@
 #include<iostream>
 using namespace std;
-void printname(){
-    cout<<"prashant jadhav";
+void printname(string name){
+    cout<<"hello "<<name;
 }
 int main(){
-    printname();
+    string name;
+    cout<<"enter a name - ";
+    cin>>name;
+    printname(name);
 }
