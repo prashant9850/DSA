@@ -2,7 +2,10 @@
 using namespace std;
 
 int main() {
-   pair<int,pair<int,char>> p={4,{5,'a'}};
-   cout<<p.first<<" "<<p.second.first<<" "<<p.second.second;
+   pair<int,int> a[3]={{1,2},{3,4},{4,5}};
+   
+   for(int i=0;i<3;i++){
+      cout<<a[i].first<<" ";
+   }
     return 0;
 }
